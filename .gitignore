@@ -1,0 +1,63 @@
+# .gitignore para proyectos C# / .NET
+
+# Build folders
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# NuGet
+*.nupkg
+.nuget/
+
+# Paket
+.paket/
+
+# Logs
+*.log
+
+# Test result files
+TestResults/
+
+# Publish output
+publish/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Rider / ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Mac / Linux metadata
+.DS_Store
+
+# Package directories
+packages/
+
+# local secrets
+secrets.json
+appsettings.Development.json
+
+# Lock files (optional)
+project.lock.json
+
+# Other
+*.pidb
+*.mdb
+*.opendb
+*.VC.db
